@@ -1,5 +1,43 @@
 /*-------Fonts-------*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700');
+@font-face {
+  font-family: 'icomoon';
+src:  url('../fonts/icomoon.eot?d8fl15');
+  src:  url('../fonts/icomoon.eot?d8fl15#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?d8fl15') format('truetype'),
+    url('../fonts/icomoon.woff?d8fl15') format('woff'),
+    url('../fonts/icomoon.svg?d8fl15#icomoon') format('svg');
+   /* src: url(../fonts/icomoon.eot);
+  src:  url('fonts/icomoon.eot?d8fl15#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?d8fl15') format('truetype'),
+    url('fonts/icomoon.woff?d8fl15') format('woff'),
+    url('fonts/icomoon.svg?d8fl15#icomoon') format('svg')*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-loop2:before {
+  content: "\ea2e";
+}
+.icon-loop2 {
+    font-size: 42px;
+    display: block;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -78,12 +116,15 @@ html,
 body {
     height: 100%;
 }
+
 li {
     list-style-type: none;
 }
 
-.clearfix {
+.clearfix:after {
+    content: "";
     clear: both;
+    display: table;
 }
 
 .container {
@@ -531,7 +572,7 @@ li {
 }
 
 .footer {
-    
+
     height: 384px;
     width: 1366px;
     background-color: #f7f7f7;
@@ -657,7 +698,7 @@ li {
 }
 
 .location {
-    
+
     padding: 71px 0 122px 98px;
     height: 563px;
     box-sizing: border-box;
@@ -710,6 +751,56 @@ li {
 }
 
 
-.footerBlock {    
+.footerBlock {
     height: 384px;
+    
 }
+
+.prodRange .prodTitle li {
+    
+    display: inline-block;
+    padding: 0 25px 19px;
+    border-bottom: 3px solid transparent;
+}
+.prodRange .prodTitle li a {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.prodRange .prodTitle li:first-child {
+    padding-left:  0;
+}
+.prodRange .prodTitle li:last-child {
+    padding-right:  0;
+}
+.prodRange .prodTitle li:hover {
+      border-bottom: 3px solid #212121;
+}
+.prodRange .prodTitle li:hover a{
+      color: #212121;
+}
+
+.prodRange {
+    height: 1845px;
+    padding: 70px 68px 20px 98px;
+    box-sizing: border-box;
+}
+.prodRange .product {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.prodRange .product li {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.prodRange .icon-loop2 {
+    font-size: 42px;
+    display: block;
+    padding-left: 574px;
+    color: #212121;
+    
+}
+
+

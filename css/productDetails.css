@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Gotham Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Light'), url('../fonts/GothamLight.woff') format('woff');
+}
+
+.productDetails {
+    height: 119px;
+    background-image: none;
+}
+
+.menu2 {
+    background-color: #f4f4f4;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu2 .prodTitle li a {
+    color: #6c6c6c;
+    font-size: 17.99px;
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0006);
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu2 .prodTitle li {
+    display: inline-block;
+
+}
+
+.menu2 .prodTitle li:hover a {
+    color: #212121;
+}
+
+.trending {
+    height: 628px;
+    padding-bottom: 90px;
+
+}
+
+.prodHotDeal {
+    padding: 72px 98px 125px;
+    height: 723px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.prodHotDeal .left {
+    width: 570px;
+}
+
+.prodHotDeal .left .smallImg {
+    padding: 11px 5px 0;
+}
+
+.prodHotDeal .left .smallImg:active,
+.prodHotDeal .left .smallImg:focus,
+.prodHotDeal .left .smallImg:hover {
+    opacity: 0.4;
+}
+
+.smallimges {
+    display: flex;
+    justify-content: center;
+}
+
+.prodHotDeal .text {
+    padding-left: 56px;
+    width: 510px;
+    padding-top: 45px;
+}
+
+.prodHotDeal .text h1 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.prodHotDeal .text .hot {
+    text-transform: uppercase;
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+   padding-bottom: 35px;
+}
+
+.prodHotDeal .text .price {
+    font-family: 'Gotham Light';
+    color: #212121;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.prodHotDeal .text .price1 {
+    font-size: 48px;
+}
+.prodHotDeal .text .price2 {
+    font-size: 72px;
+}
+.prodHotDeal .text .price3{
+    font-size: 36px;
+}
+
+.prodHotDeal .text p {
+    font-family: 'Gotham Light';
+    color: #212121;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    transform: scaleY(1.0005);
+    margin-top: 10px;
+}
+
+
+.prodHotDeal .text .orderbutton {
+    background-color: #f44336;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 510px;
+    height: 71px;
+    border-radius: 35px;
+    Color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 71px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.prodHotDeal .text .orderbutton:hover {
+    background: #f44336 url(../img/arrowW.png) no-repeat 340px 21px;
+}
+
+.prodHotDeal .text .orderbutton:active {
+    box-shadow: none;
+}
